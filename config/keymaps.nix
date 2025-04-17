@@ -491,7 +491,7 @@
     }
 
     {
-      mode = "n";
+      mode = "i";
       key = "jk";
       action = "<esc>";
       options = {
