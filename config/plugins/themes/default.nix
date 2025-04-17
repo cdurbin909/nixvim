@@ -1,7 +1,14 @@
 {
   colorschemes = {
-    catppuccin = {
+    rose-pine = {
       enable = true;
+      settings = {
+        dark_variant = "moon";
+        variant = "auto";
+      };
+    };
+    catppuccin = {
+      enable = false;
       settings = {
         background = {
           light = "macchiato";

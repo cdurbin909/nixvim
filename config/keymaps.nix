@@ -489,13 +489,20 @@
         desc = "Previous Tab";
       };
     }
-
     {
       mode = "i";
       key = "jk";
       action = "<esc>";
       options = {
         desc = "Enter normal mode";
+      };
+    }
+    {
+      mode = "n";
+      key = ";";
+      action = ":";
+      options = {
+        desc = "Enter command mode";
       };
     }
   ];
