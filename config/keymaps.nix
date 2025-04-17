@@ -489,5 +489,14 @@
         desc = "Previous Tab";
       };
     }
+
+    {
+      mode = "n";
+      key = "jk";
+      action = "<esc>";
+      options = {
+        desc = "Enter normal mode";
+      };
+    }
   ];
 }
