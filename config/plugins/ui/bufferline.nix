@@ -27,7 +27,7 @@
   keymaps = [
     {
       mode = "n";
-      key = "]b";
+      key = "<Tab>";
       action = "<cmd>BufferLineCycleNext<cr>";
       options = {
         desc = "Cycle to next buffer";
@@ -63,7 +63,7 @@
 
     {
       mode = "n";
-      key = "<leader>bd";
+      key = "<leader>x";
       action = "<cmd>bdelete<cr>";
       options = {
         desc = "Delete buffer";
