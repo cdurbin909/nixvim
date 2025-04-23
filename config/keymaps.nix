@@ -505,5 +505,13 @@
         desc = "Enter command mode";
       };
     }
+    {
+      mode = "n";
+      key = "<leader>/";
+      action = "gc";
+      options = {
+        desc = "Toggle Comment";
+      };
+    }
   ];
 }
