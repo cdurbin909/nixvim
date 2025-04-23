@@ -508,6 +508,14 @@
     {
       mode = "n";
       key = "<leader>/";
+      action = "gcc";
+      options = {
+        desc = "Toggle Comment";
+      };
+    }
+    {
+      mode = "v";
+      key = "<leader>/";
       action = "gc";
       options = {
         desc = "Toggle Comment";
