@@ -511,6 +511,7 @@
       action = "gcc";
       options = {
         desc = "Toggle Comment";
+        remap = true;
       };
     }
     {
@@ -519,6 +520,7 @@
       action = "gc";
       options = {
         desc = "Toggle Comment";
+        remap = true;
       };
     }
   ];
